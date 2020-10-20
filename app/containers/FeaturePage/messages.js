@@ -26,7 +26,8 @@ export default defineMessages({
   },
   toolsMessage: {
     id: `${scope}.tools.message`,
-    defaultMessage: 'We build sytems and tools designed to enable remote learning and bring the classroom experience online.',
+    defaultMessage:
+      'We build sytems and tools designed to enable remote learning and bring the classroom experience online.',
   },
   techHeader: {
     id: `${scope}.tech.header`,
@@ -34,7 +35,8 @@ export default defineMessages({
   },
   techMessages: {
     id: `${scope}.tech.message`,
-    defaultMessage: 'We utilize cutting edge technologies to create the next generation in web based learning capabilities.',
+    defaultMessage:
+      'We utilize cutting edge technologies to create the next generation in web based learning capabilities.',
   },
   resourcesHeader: {
     id: `${scope}.resources.header`,
@@ -42,7 +44,8 @@ export default defineMessages({
   },
   resourcesMessage: {
     id: `${scope}.resources.message`,
-    defaultMessage: 'We will compile all of the resources that we can find into this one location so that the information is at your fingertips without your having to do all of the research.',
+    defaultMessage:
+      'We will compile all of the resources that we can find into this one location so that the information is at your fingertips without your having to do all of the research.',
   },
   communityHeader: {
     id: `${scope}.community.header`,
@@ -50,6 +53,7 @@ export default defineMessages({
   },
   communityMessage: {
     id: `${scope}.community.message`,
-    defaultMessage: 'Home of the remote education community.. where educators, learners, institutions, organizations, and groups can come to aquire tools, research information, trade info and assist eachother, communicate and excel.',
+    defaultMessage:
+      'Home of the remote education community.. where educators, learners, institutions, organizations, and groups can come to aquire tools, research information, trade info and assist eachother, communicate and excel.',
   },
 });

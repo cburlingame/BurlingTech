@@ -31,11 +31,11 @@ const AppWrapper = styled.div`
 export default function App() {
   return (
     <AppWrapper>
-      <Helmet
-        titleTemplate="%s - REN"
-        defaultTitle="Remote Educsation Network"
-      >
-        <meta name="description" content="Tools and resources to enable and enhance the remote education experience" />
+      <Helmet titleTemplate="%s - REN" defaultTitle="Remote Educsation Network">
+        <meta
+          name="description"
+          content="Tools and resources to enable and enhance the remote education experience"
+        />
       </Helmet>
       <Header />
       <Switch>

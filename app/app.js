@@ -1,8 +1,8 @@
 /**
  * app.js
  *
- * This is the entry file for the application, only setup and boilerplate
- * code.
+ * entry file for the application- only setup and boilerplate code here
+ * 
  */
 
 // Needed for redux-saga es6 generator support

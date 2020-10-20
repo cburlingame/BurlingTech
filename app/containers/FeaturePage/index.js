@@ -20,7 +20,7 @@ export default function FeaturePage() {
         <title>Feature Page</title>
         <meta
           name="description"
-          content="Feature page of React.js Boilerplate application"
+          content="Features page of the Remote Education Network"
         />
       </Helmet>
       <H1>
@@ -29,46 +29,46 @@ export default function FeaturePage() {
       <List>
         <ListItem>
           <ListItemTitle>
-            <FormattedMessage {...messages.scaffoldingHeader} />
+            <FormattedMessage {...messages.infoHeader} />
           </ListItemTitle>
           <p>
-            <FormattedMessage {...messages.scaffoldingMessage} />
+            <FormattedMessage {...messages.infoMessage} />
           </p>
         </ListItem>
 
         <ListItem>
           <ListItemTitle>
-            <FormattedMessage {...messages.feedbackHeader} />
+            <FormattedMessage {...messages.toolsHeader} />
           </ListItemTitle>
           <p>
-            <FormattedMessage {...messages.feedbackMessage} />
+            <FormattedMessage {...messages.toolsMessage} />
           </p>
         </ListItem>
 
         <ListItem>
           <ListItemTitle>
-            <FormattedMessage {...messages.routingHeader} />
+            <FormattedMessage {...messages.techHeader} />
           </ListItemTitle>
           <p>
-            <FormattedMessage {...messages.routingMessage} />
+            <FormattedMessage {...messages.techMessage} />
           </p>
         </ListItem>
 
         <ListItem>
           <ListItemTitle>
-            <FormattedMessage {...messages.networkHeader} />
+            <FormattedMessage {...messages.resourcesHeader} />
           </ListItemTitle>
           <p>
-            <FormattedMessage {...messages.networkMessage} />
+            <FormattedMessage {...messages.resourcesMessage} />
           </p>
         </ListItem>
 
         <ListItem>
           <ListItemTitle>
-            <FormattedMessage {...messages.intlHeader} />
+            <FormattedMessage {...messages.communityHeader} />
           </ListItemTitle>
           <p>
-            <FormattedMessage {...messages.intlMessage} />
+            <FormattedMessage {...messages.communityMessage} />
           </p>
         </ListItem>
       </List>

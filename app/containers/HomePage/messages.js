@@ -19,7 +19,7 @@ export default defineMessages({
   },
   rlHeader: {
     id: `${scope}.rl.header`,
-    defaultMessage: 'Remote Learning',
+    defaultMessage: 'Learn',
   },
   rlDetailMessage: {
     id: `${scope}.rldetail.message`,
@@ -29,7 +29,7 @@ export default defineMessages({
     'One of the many changes implemented to limit the spread of the contagion within our schools, was to move classroom learning online.' +
     'There have been numerous challenges with this new approach to learning.. remotely.. from home, an approach that can be as good if not better, if done right, as in person learning can be.' +
     'There are limited tools available for educators, currently, to try and replicate the classroom experience within the virtual classroom. Many times they are restriced by system or program rules and limitations.' +
-    'Every teacher has his or her own way of teaching, and no one way is better than another.. it\'s more like style in that it is a unique blend of that educator\'s personality and experience.' +
+    'Every teacher has his or her own way of teaching, a unique blend of that educator\'s personality, experience, and methodoligies he or she uses to present the materials and control the trajectory of the class.' +
     'Here at the Remote Education Network, we are building tools, technologies, resources, and community to enable and support remote education, with a key focus on making the virtual classroom experience as easy and effective as the in person classroom experience.' +
     'One thing this requires is input.. please send us any suggestions that you may have.. if it will help an educator teach remote classes then we will build it.'
   },

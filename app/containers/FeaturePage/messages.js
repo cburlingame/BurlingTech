@@ -12,88 +12,44 @@ export default defineMessages({
     id: `${scope}.header`,
     defaultMessage: 'Features',
   },
-  scaffoldingHeader: {
-    id: `${scope}.scaffolding.header`,
-    defaultMessage: 'Quick scaffolding',
+  infoHeader: {
+    id: `${scope}.info.header`,
+    defaultMessage: 'Information',
   },
-  scaffoldingMessage: {
-    id: `${scope}.scaffolding.message`,
-    defaultMessage: `Automate the creation of components, containers, routes, selectors
-  and sagas - and their tests - right from the CLI!`,
+  infoMessage: {
+    id: `${scope}.info.message`,
+    defaultMessage: `A central point of information on the web for people involved with remote education and remote learning.`,
   },
-  feedbackHeader: {
-    id: `${scope}.feedback.header`,
-    defaultMessage: 'Instant feedback',
+  toolsHeader: {
+    id: `${scope}.tools.header`,
+    defaultMessage: 'Tools',
   },
-  feedbackMessage: {
-    id: `${scope}.feedback.message`,
-    defaultMessage: `
-      Enjoy the best DX and code your app at the speed of thought! Your
-    saved changes to the CSS and JS are reflected instantaneously
-    without refreshing the page. Preserve application state even when
-    you update something in the underlying code!
-    `,
+  toolsMessage: {
+    id: `${scope}.tools.message`,
+    defaultMessage: 'We build sytems and tools designed to enable remote learning and bring the classroom experience online.',
   },
-  stateManagementHeader: {
-    id: `${scope}.state_management.header`,
-    defaultMessage: 'Predictable state management',
+  techHeader: {
+    id: `${scope}.tech.header`,
+    defaultMessage: 'Technology',
   },
-  stateManagementMessages: {
-    id: `${scope}.state_management.message`,
-    defaultMessage: `
-      Unidirectional data flow allows for change logging and time travel
-    debugging.
-    `,
+  techMessages: {
+    id: `${scope}.tech.message`,
+    defaultMessage: 'We utilize cutting edge technologies to create the next generation in web based learning capabilities.',
   },
-  javascriptHeader: {
-    id: `${scope}.javascript.header`,
-    defaultMessage: 'Next generation JavaScript',
+  resourcesHeader: {
+    id: `${scope}.resources.header`,
+    defaultMessage: 'Resources',
   },
-  javascriptMessage: {
-    id: `${scope}.javascript.message`,
-    defaultMessage: `Use template strings, object destructuring, arrow functions, JSX
-    syntax and more, today.`,
+  resourcesMessage: {
+    id: `${scope}.resources.message`,
+    defaultMessage: 'We will compile all of the resources that we can find into this one location so that the information is at your fingertips without your having to do all of the research.',
   },
-  cssHeader: {
-    id: `${scope}.css.header`,
-    defaultMessage: 'Features',
+  communityHeader: {
+    id: `${scope}.community.header`,
+    defaultMessage: 'Community',
   },
-  cssMessage: {
-    id: `${scope}.css.message`,
-    defaultMessage: 'Next generation CSS',
-  },
-  routingHeader: {
-    id: `${scope}.routing.header`,
-    defaultMessage: 'Industry-standard routing',
-  },
-  routingMessage: {
-    id: `${scope}.routing.message`,
-    defaultMessage: `
-      Write composable CSS that's co-located with your components for
-    complete modularity. Unique generated class names keep the
-    specificity low while eliminating style clashes. Ship only the
-    styles that are on the page for the best performance.
-    `,
-  },
-  networkHeader: {
-    id: `${scope}.network.header`,
-    defaultMessage: 'Offline-first',
-  },
-  networkMessage: {
-    id: `${scope}.network.message`,
-    defaultMessage: `
-      The next frontier in performant web apps: availability without a
-      network connection from the instant your users load the app.
-    `,
-  },
-  intlHeader: {
-    id: `${scope}.internationalization.header`,
-    defaultMessage:
-      'Complete i18n Standard Internationalization & Pluralization',
-  },
-  intlMessage: {
-    id: `${scope}.internationalization.message`,
-    defaultMessage:
-      'Scalable apps need to support multiple languages, easily add and support multiple languages with `react-intl`.',
+  communityMessage: {
+    id: `${scope}.community.message`,
+    defaultMessage: 'Home of the remote education community.. where educators, learners, institutions, organizations, and groups can come to aquire tools, research information, trade info and assist eachother, communicate and excel.',
   },
 });

@@ -32,10 +32,10 @@ export default function App() {
   return (
     <AppWrapper>
       <Helmet
-        titleTemplate="%s - React.js Boilerplate :0)"
-        defaultTitle="React.js Boilerplate 8-)"
+        titleTemplate="%s - REN"
+        defaultTitle="Remote Educsation Network"
       >
-        <meta name="description" content="A React.js Boilerplate application" />
+        <meta name="description" content="Tools and resources to enable and enhance the remote education experience" />
       </Helmet>
       <Header />
       <Switch>

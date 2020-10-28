@@ -1,16 +1,16 @@
 {
-  "name": "react-boilerplate",
+  "name": "remote-edu-net",
   "version": "4.0.0",
-  "description": "A highly scalable, offline-first foundation with the best DX and a focus on performance and best practices",
+  "description": "A highly scalable, performant, offline-first platform containing tools and resources to enable & enhance the remote education experience",
   "repository": {
     "type": "git",
-    "url": "git://github.com/react-boilerplate/react-boilerplate.git"
+    "url": "https://github.com/cburlingame/BurlingTech/tree/feature/cburlingame_redesign_01"
   },
   "engines": {
     "npm": ">=5",
     "node": ">=8.15.1"
   },
-  "author": "Max Stoiber",
+  "author": "CLB",
   "license": "MIT",
   "scripts": {
     "analyze:clean": "rimraf stats.json",

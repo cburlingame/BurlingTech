@@ -2,7 +2,9 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export default styled(Link)`
-  display: inline-flex;
+  display: inline;
+  position: relative;
+  top: 10px;
   padding: 0.25em 2em;
   margin: 1em;
   text-decoration: none;

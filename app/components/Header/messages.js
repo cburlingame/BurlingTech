@@ -16,4 +16,16 @@ export default defineMessages({
     id: `${scope}.features`,
     defaultMessage: 'Features',
   },
+  tools: {
+    id: `${scope}.tools`,
+    defaultMessage: 'Tools',
+  },
+  tech: {
+    id: `${scope}.tech`,
+    defaultMessage: 'Tech',
+  },
+  community: {
+    id: `${scope}.community`,
+    defaultMessage: 'Community',
+  },
 });

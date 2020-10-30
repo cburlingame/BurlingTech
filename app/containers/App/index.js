@@ -13,6 +13,9 @@ import { Switch, Route } from 'react-router-dom';
 
 import HomePage from 'containers/HomePage/Loadable';
 import FeaturePage from 'containers/FeaturePage/Loadable';
+import ToolsPage from 'containers/ToolsPage/Loadable';
+import TechPage from 'containers/techPage/Loadable';
+import CommunityPage from 'containers/CommunityPage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
@@ -31,16 +34,19 @@ const AppWrapper = styled.div`
 export default function App() {
   return (
     <AppWrapper>
-      <Helmet titleTemplate="%s - REN" defaultTitle="Remote Educsation Network">
+      <Helmet titleTemplate="%s - REN" defaultTitle="Remote Education Network">
         <meta
           name="description"
-          content="Tools and resources to enable and enhance the remote education experience"
+          content="Tools and resources to enable and enhance the remote education experience."
         />
       </Helmet>
       <Header />
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/features" component={FeaturePage} />
+        <Route path="/tools" component={ToolsPage} />
+        <Route path="/tech" component={TechPage} />
+        <Route path="/community" component={CommunityPage} />
         <Route path="" component={NotFoundPage} />
       </Switch>
       <Footer />
